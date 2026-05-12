@@ -1,8 +1,7 @@
 <template >
     <div class=" drawer drawer-start lg:drawer-open  w-full">
     <input type="checkbox" name="my-drawer" id="my-drawer" class=" drawer-toggle">
-    <h1>chek</h1>
-<div class=" drawer-side"> dfffds
+<div class=" drawer-side"> 
      <label for="my-drawer" class=" drawer-overlay"></label>
       <SideBar></SideBar>
       </div>
