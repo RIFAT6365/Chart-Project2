@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* প্লাগইন হিসেবে daisyui/index.js ব্যবহার করুন, 
+যা .css ফাইল রিড করার এররটি দূর করবে */
+
+@plugin "daisyui/index.js";
+@theme {
+    --color-primary: #0ea5e9;
+    --color-bg-dark: #fbbf24;
+}
+
+
+/* কাস্টম ডার্ক ভেরিয়েন্ট */
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
